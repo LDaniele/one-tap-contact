@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462366F423C5127900EE91D2 /* One Tap Contact WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		462366FA23C5127900EE91D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462366F823C5127900EE91D2 /* Interface.storyboard */; };
+		462366FC23C5127B00EE91D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462366FB23C5127B00EE91D2 /* Assets.xcassets */; };
+		4623670323C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4623670823C5127B00EE91D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670723C5127B00EE91D2 /* ContentView.swift */; };
+		4623670A23C5127B00EE91D2 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670923C5127B00EE91D2 /* HostingController.swift */; };
+		4623670C23C5127B00EE91D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670B23C5127B00EE91D2 /* ExtensionDelegate.swift */; };
+		4623670E23C5127B00EE91D2 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670D23C5127B00EE91D2 /* NotificationController.swift */; };
+		4623671023C5127B00EE91D2 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670F23C5127B00EE91D2 /* NotificationView.swift */; };
+		4623671223C5127B00EE91D2 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623671123C5127B00EE91D2 /* ComplicationController.swift */; };
+		4623671423C5127B00EE91D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4623671323C5127B00EE91D2 /* Assets.xcassets */; };
+		4623671723C5127B00EE91D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4623671623C5127B00EE91D2 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		462366F523C5127900EE91D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462366E923C5127800EE91D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 462366F223C5127900EE91D2;
+			remoteInfo = "One Tap Contact WatchKit App";
+		};
+		4623670423C5127B00EE91D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 462366E923C5127800EE91D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4623670123C5127B00EE91D2;
+			remoteInfo = "One Tap Contact WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4623671F23C5127B00EE91D2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4623670323C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4623672323C5127B00EE91D2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				462366F423C5127900EE91D2 /* One Tap Contact WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		462366EF23C5127800EE91D2 /* One Tap Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Tap Contact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Tap Contact WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462366F923C5127900EE91D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		462366FB23C5127B00EE91D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462366FD23C5127B00EE91D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "One Tap Contact WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4623670723C5127B00EE91D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4623670923C5127B00EE91D2 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		4623670B23C5127B00EE91D2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4623670D23C5127B00EE91D2 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4623670F23C5127B00EE91D2 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4623671123C5127B00EE91D2 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		4623671323C5127B00EE91D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4623671623C5127B00EE91D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4623671823C5127B00EE91D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4623671923C5127B00EE91D2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462366FF23C5127B00EE91D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462366E823C5127800EE91D2 = {
+			isa = PBXGroup;
+			children = (
+				462366F723C5127900EE91D2 /* One Tap Contact WatchKit App */,
+				4623670623C5127B00EE91D2 /* One Tap Contact WatchKit Extension */,
+				462366F023C5127800EE91D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462366F023C5127800EE91D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462366EF23C5127800EE91D2 /* One Tap Contact.app */,
+				462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */,
+				4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462366F723C5127900EE91D2 /* One Tap Contact WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				462366F823C5127900EE91D2 /* Interface.storyboard */,
+				462366FB23C5127B00EE91D2 /* Assets.xcassets */,
+				462366FD23C5127B00EE91D2 /* Info.plist */,
+			);
+			path = "One Tap Contact WatchKit App";
+			sourceTree = "<group>";
+		};
+		4623670623C5127B00EE91D2 /* One Tap Contact WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4623670723C5127B00EE91D2 /* ContentView.swift */,
+				4623670923C5127B00EE91D2 /* HostingController.swift */,
+				4623670B23C5127B00EE91D2 /* ExtensionDelegate.swift */,
+				4623670D23C5127B00EE91D2 /* NotificationController.swift */,
+				4623670F23C5127B00EE91D2 /* NotificationView.swift */,
+				4623671123C5127B00EE91D2 /* ComplicationController.swift */,
+				4623671323C5127B00EE91D2 /* Assets.xcassets */,
+				4623671823C5127B00EE91D2 /* Info.plist */,
+				4623671923C5127B00EE91D2 /* PushNotificationPayload.apns */,
+				4623671523C5127B00EE91D2 /* Preview Content */,
+			);
+			path = "One Tap Contact WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4623671523C5127B00EE91D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4623671623C5127B00EE91D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462366EE23C5127800EE91D2 /* One Tap Contact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4623672423C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact" */;
+			buildPhases = (
+				462366ED23C5127800EE91D2 /* Resources */,
+				4623672323C5127B00EE91D2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				462366F623C5127900EE91D2 /* PBXTargetDependency */,
+			);
+			name = "One Tap Contact";
+			productName = "One Tap Contact";
+			productReference = 462366EF23C5127800EE91D2 /* One Tap Contact.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		462366F223C5127900EE91D2 /* One Tap Contact WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4623672023C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact WatchKit App" */;
+			buildPhases = (
+				462366F123C5127900EE91D2 /* Resources */,
+				4623671F23C5127B00EE91D2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4623670523C5127B00EE91D2 /* PBXTargetDependency */,
+			);
+			name = "One Tap Contact WatchKit App";
+			productName = "One Tap Contact WatchKit App";
+			productReference = 462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4623670123C5127B00EE91D2 /* One Tap Contact WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4623671C23C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact WatchKit Extension" */;
+			buildPhases = (
+				462366FE23C5127B00EE91D2 /* Sources */,
+				462366FF23C5127B00EE91D2 /* Frameworks */,
+				4623670023C5127B00EE91D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Tap Contact WatchKit Extension";
+			productName = "One Tap Contact WatchKit Extension";
+			productReference = 4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462366E923C5127800EE91D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Larry Daniele";
+				TargetAttributes = {
+					462366EE23C5127800EE91D2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					462366F223C5127900EE91D2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					4623670123C5127B00EE91D2 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 462366EC23C5127800EE91D2 /* Build configuration list for PBXProject "One Tap Contact" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462366E823C5127800EE91D2;
+			productRefGroup = 462366F023C5127800EE91D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462366EE23C5127800EE91D2 /* One Tap Contact */,
+				462366F223C5127900EE91D2 /* One Tap Contact WatchKit App */,
+				4623670123C5127B00EE91D2 /* One Tap Contact WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462366ED23C5127800EE91D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462366F123C5127900EE91D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462366FC23C5127B00EE91D2 /* Assets.xcassets in Resources */,
+				462366FA23C5127900EE91D2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4623670023C5127B00EE91D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4623671723C5127B00EE91D2 /* Preview Assets.xcassets in Resources */,
+				4623671423C5127B00EE91D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462366FE23C5127B00EE91D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4623670A23C5127B00EE91D2 /* HostingController.swift in Sources */,
+				4623670823C5127B00EE91D2 /* ContentView.swift in Sources */,
+				4623670E23C5127B00EE91D2 /* NotificationController.swift in Sources */,
+				4623670C23C5127B00EE91D2 /* ExtensionDelegate.swift in Sources */,
+				4623671023C5127B00EE91D2 /* NotificationView.swift in Sources */,
+				4623671223C5127B00EE91D2 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		462366F623C5127900EE91D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 462366F223C5127900EE91D2 /* One Tap Contact WatchKit App */;
+			targetProxy = 462366F523C5127900EE91D2 /* PBXContainerItemProxy */;
+		};
+		4623670523C5127B00EE91D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4623670123C5127B00EE91D2 /* One Tap Contact WatchKit Extension */;
+			targetProxy = 4623670423C5127B00EE91D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		462366F823C5127900EE91D2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462366F923C5127900EE91D2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4623671A23C5127B00EE91D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4623671B23C5127B00EE91D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4623671D23C5127B00EE91D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"One Tap Contact WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "One Tap Contact WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		4623671E23C5127B00EE91D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"One Tap Contact WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "One Tap Contact WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		4623672123C5127B00EE91D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
+				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		4623672223C5127B00EE91D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
+				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		4623672523C5127B00EE91D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4623672623C5127B00EE91D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL4Q4NW6QG;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462366EC23C5127800EE91D2 /* Build configuration list for PBXProject "One Tap Contact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4623671A23C5127B00EE91D2 /* Debug */,
+				4623671B23C5127B00EE91D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4623671C23C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4623671D23C5127B00EE91D2 /* Debug */,
+				4623671E23C5127B00EE91D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4623672023C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4623672123C5127B00EE91D2 /* Debug */,
+				4623672223C5127B00EE91D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4623672423C5127B00EE91D2 /* Build configuration list for PBXNativeTarget "One Tap Contact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4623672523C5127B00EE91D2 /* Debug */,
+				4623672623C5127B00EE91D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462366E923C5127800EE91D2 /* Project object */;
+}
