@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		462366F423C5127900EE91D2 /* One Tap Contact WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		462366F423C5127900EE91D2 /* One Tap Contact.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 462366F323C5127900EE91D2 /* One Tap Contact.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		462366FA23C5127900EE91D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462366F823C5127900EE91D2 /* Interface.storyboard */; };
 		462366FC23C5127B00EE91D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462366FB23C5127B00EE91D2 /* Assets.xcassets */; };
-		4623670323C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4623670323C5127B00EE91D2 /* One Tap Contact.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4623670223C5127B00EE91D2 /* One Tap Contact.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4623670823C5127B00EE91D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670723C5127B00EE91D2 /* ContentView.swift */; };
 		4623670A23C5127B00EE91D2 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670923C5127B00EE91D2 /* HostingController.swift */; };
 		4623670C23C5127B00EE91D2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623670B23C5127B00EE91D2 /* ExtensionDelegate.swift */; };
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4623670323C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex in Embed App Extensions */,
+				4623670323C5127B00EE91D2 /* One Tap Contact.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				462366F423C5127900EE91D2 /* One Tap Contact WatchKit App.app in Embed Watch Content */,
+				462366F423C5127900EE91D2 /* One Tap Contact.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,11 +65,11 @@
 
 /* Begin PBXFileReference section */
 		462366EF23C5127800EE91D2 /* One Tap Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Tap Contact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Tap Contact WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		462366F323C5127900EE91D2 /* One Tap Contact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Tap Contact.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		462366F923C5127900EE91D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		462366FB23C5127B00EE91D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462366FD23C5127B00EE91D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "One Tap Contact WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4623670223C5127B00EE91D2 /* One Tap Contact.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "One Tap Contact.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4623670723C5127B00EE91D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4623670923C5127B00EE91D2 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		4623670B23C5127B00EE91D2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				462366EF23C5127800EE91D2 /* One Tap Contact.app */,
-				462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */,
-				4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */,
+				462366F323C5127900EE91D2 /* One Tap Contact.app */,
+				4623670223C5127B00EE91D2 /* One Tap Contact.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,7 +181,7 @@
 			);
 			name = "One Tap Contact WatchKit App";
 			productName = "One Tap Contact WatchKit App";
-			productReference = 462366F323C5127900EE91D2 /* One Tap Contact WatchKit App.app */;
+			productReference = 462366F323C5127900EE91D2 /* One Tap Contact.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		4623670123C5127B00EE91D2 /* One Tap Contact WatchKit Extension */ = {
@@ -198,7 +198,7 @@
 			);
 			name = "One Tap Contact WatchKit Extension";
 			productName = "One Tap Contact WatchKit Extension";
-			productReference = 4623670223C5127B00EE91D2 /* One Tap Contact WatchKit Extension.appex */;
+			productReference = 4623670223C5127B00EE91D2 /* One Tap Contact.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -438,7 +438,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "One Tap Contact";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +462,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_NAME = "One Tap Contact";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,7 +481,7 @@
 				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
 				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "One Tap Contact";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -500,7 +500,7 @@
 				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
 				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "One Tap Contact";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
