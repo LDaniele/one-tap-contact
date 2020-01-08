@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL4Q4NW6QG;
-				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
+				IBSC_MODULE = "$(PRODUCT_MODULE_NAME)";
 				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
 				PRODUCT_NAME = "One Tap Contact";
@@ -497,7 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WL4Q4NW6QG;
-				IBSC_MODULE = One_Tap_Contact_WatchKit_Extension;
+				IBSC_MODULE = "$(PRODUCT_MODULE_NAME)";
 				INFOPLIST_FILE = "One Tap Contact WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.larrydaniele.One-Tap-Contact.watchkitapp";
 				PRODUCT_NAME = "One Tap Contact";
